@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-color: #eee;
+  --main-font: 'Noto Kufi Arabic', sans-serif;
+  --main-font-bolder: 'Lalezar', cursive;
+}
+
+
+body {
+  font-family: var(--main-font);
+}
+
+h1,h2 {
+  font-family: var(--main-font-bolder);
+}
