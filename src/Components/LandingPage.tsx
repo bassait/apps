@@ -43,7 +43,7 @@ function LandingPage() {
               title={`رياكت نيتف ${i + 1}`}
               description="يمكن باستخدامه توليد واجهات استخدام لكل من iOS وأندرويد. · إطار عمل مفتوح المصدر، وقد يصبح متوافقًا مع منصات أخرى"
               image="/src/assets/react.svg"
-              url={`#${i}`}
+              url={`/app`}
             />
           ))}
       </div>
